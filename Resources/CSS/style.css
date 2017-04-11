@@ -1,10 +1,52 @@
 *{
-
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
 }
 
 /*-----Elements----*/
-header{
-  display: span;
-  
 
+header{
+  display: flex;
+  height: 69px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px seashell solid;
 }
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+  display: flex;
+  text-align: right;
+  flex-grow: 1;
+  height: 69px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+header span a{
+  display: flex;
+  margin: 0px 10px;
+}
+
+/*----Elements and Classes---*/
+.content{
+  display: block;
+  padding-top: 70px;
+  margin: auto;
+  width: 1200px;
+}
+
+.picturebox{
+  height: 700px;
+  background-image: url("file:///C:ROttoProjects/TeaCosy/Resources/Images/img-mission-background.jpg"););
+}
+/*---Ids----*/
