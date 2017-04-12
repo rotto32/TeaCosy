@@ -38,15 +38,140 @@ header span a{
 }
 
 /*----Elements and Classes---*/
-.content{
+.mission{
   display: block;
   padding-top: 70px;
   margin: auto;
   width: 1200px;
 }
 
-.picturebox{
+.mission{
+  display: flex;
+  align-items: center;
   height: 700px;
-  background-image: url("file:///C:ROttoProjects/TeaCosy/Resources/Images/img-mission-background.jpg"););
+  width: 1200px;
+  opacity: 1.0;
+  background-image: url("file:///C:ROttoProjects/TeaCosy/Resources/Images/img-mission-background.jpg");
 }
+
+
+.missiontitle h2{
+  align-items: center;
+  width: 1200px;
+  text-align: center;
+  flex-direction: column;
+  opacity: 1.0;
+  font-size: 33px;
+}
+
+.missionchild h4{
+  align-items: center;
+  width: 1200px;
+  flex-direction: column;
+  text-align: center;
+  opacity: 1.0;
+  font-size: 23px;
+}
+
+.month{
+  display: block;
+  background-color: black;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.allteas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.allteas h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 33px;
+  opacity: 1.0;
+}
+
+.allteas h4{
+  display: block;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 23px;
+  opacity: 1.0;
+}
+
+.tea{
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.tea img{
+  justify-content: space-around;
+  height: 200px;
+  width: 300px;
+  padding: 5px 15px;
+}
+
+.tea span{
+  text-align: center;
+  display: block;
+  padding: 5px;
+}
+
+.locations{
+  display: block;
+  background-image: url("file:///C:ROttoProjects/TeaCosy/Resources/Images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.locations h2{
+  text-align: center;
+  background-color: transparent;
+  font-size: 33px;
+  opacity: 1.0;
+  margin: 0 20px;
+}
+
+.directory{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.place{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+  background-color: black;
+  flex-basis: 280px;
+}
+
+.place h3{
+  text-align: center;
+}
+
+.place p{
+  text-align: center;
+}
+
+
 /*---Ids----*/
+
+/*#mission p{
+  align-items: center;
+  width: 1200px;
+  text-align: center;
+  opacity: 1;
+  font-size: 33px;
+}*/
